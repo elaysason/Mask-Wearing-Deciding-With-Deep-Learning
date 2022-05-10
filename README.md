@@ -5,8 +5,9 @@ Detrimane if a person wears a mask or not using deep learning.
     - [Background](#background)
     - [More About The Task In Hand](#More-About-The-Task-In-Hand)
 3. [Program Structure](#Program-Structure)
-4. [Installation](#Installation)
-5. [Footnote](#footnote)
+    - [Network Structure](#Network-Structure)
+5. [Installation](#Installation)
+6. [Footnote](#footnote)
 ## General
 The goal is to use deep learning in general and convolutional neural network in particular convolutional neural networks in order to detranimine if the person in the picture wears a mask or not.
 
@@ -19,13 +20,11 @@ Wearing mask in this is not neccarly inuative. A person is wearing a mask if and
 <img src="https://i.imgur.com/LIojmcB.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 ## Program Structure
 The first part is specific functions for the dataset. The second part is the implementaions of the algorithms:
-* Basis - The implementaion with constant learning rate
-* Expansion 1 - Implementaion with decarsing learning rate
-* Expansion 2 - Uses some confidence parameter δ to create a lower bound on the regret in each round and deletes every action that its regret may be higher than the created lower bound
+* model.py - Creation of the network and evlautes its performance and visualize on the test set. 
+* predict.py - Uses the model created to, given a path to new pictures outputs a csv file with the prections on those images.
 
-Afterwards we compared to regret defined as 	
+### Network Structure
 
-<img src="https://i.imgur.com/CqrqpJI.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=20% height=20% /> to the bound 2 √(2nKlog(K)) which is proven in the paper. The second part was a comparission between the regrets of the diffrent algorithms.
 ## Installation
 I will use google as an example, but similar process can be performed on other notebook editors
 1. Open google Colab
