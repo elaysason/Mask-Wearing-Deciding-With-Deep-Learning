@@ -15,7 +15,8 @@ CNN is kind of the deep neural network, used mostly to analyze images. The goal 
 
 ### More-About-The-Task-In-Hand
 Wearing mask in this is not neccarly inuative. A person is wearing a mask if and only if 3 or more parts of his face are covered defined by this picture
-<img src="https://i.imgur.com/LIojmcB.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=80% height=80% />
+
+<img src="https://i.imgur.com/LIojmcB.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 ## Program Structure
 The first part is specific functions for the dataset. The second part is the implementaions of the algorithms:
 * Basis - The implementaion with constant learning rate
