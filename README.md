@@ -27,13 +27,13 @@ The first part is specific functions for the dataset. The second part is the imp
 ### Network-Structure
 
 ## Installation
-I will use google as an example, but similar process can be performed on other notebook editors
-1. Open google Colab
-2. Clone the project by:
-	```
-	!git clone https://github.com/elaysason/ANALYSIS-SP500.git
-	```
-    <img src="https://i.imgur.com/IYmNxac.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=40% height=40% />
-3. Now the folder is in your files on colab. Simpily download the notebook as showed
+1. Open the terminal
 
-    <img src="https://i.imgur.com/BIY19HC.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
+2. Clone the project by:
+```
+    $ git clone https://github.com/elaysason/Mask-Wearing-Deciding-With-Deep-Learning.git
+```
+3. Run the predict.py file by:
+```
+    $ python predict.py /path/to/folder
+```
