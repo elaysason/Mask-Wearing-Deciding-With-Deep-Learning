@@ -23,7 +23,7 @@ The first part is specific functions for the dataset. The second part is the imp
 * model.py - Creation of the network and evlautes its performance and visualize on the test set. 
 * predict.py - Uses the model created to, given a path to new pictures outputs a csv file with the prections on those images.
 
-### Network Structure
+### Network-Structure
 
 ## Installation
 I will use google as an example, but similar process can be performed on other notebook editors
