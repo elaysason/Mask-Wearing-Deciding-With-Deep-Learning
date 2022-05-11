@@ -14,6 +14,7 @@ The goal is to use deep learning in general and convolutional neural network in 
 ### Background
 CNN is kind of the deep neural network, used mostly to analyze images. The goal of CNN is to reduce the dimensions of the picture to make analyze and prediction easier without losing important features. It uses filters, each one of them will represnt a certian features. In the start the features will be simple such as horizontal or diagonal edges, afterwards the filters will repsent more complex features such as wheels or eyes.
 
+<img src="https://i.imgur.com/rXyYqjI.png" width = 70% height=70%>
 ### More-About-The-Task-In-Hand
 Wearing mask in this is not neccarly inuative. A person is wearing a mask if and only if 3 or more parts of his face are covered defined by this picture
 
