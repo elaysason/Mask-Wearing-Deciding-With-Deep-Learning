@@ -60,4 +60,5 @@ Finally, the model computes log soft max.
 ```
     $ python predict.py /path/to/folder
 ```
-where the folder should hold images in the following format XXXXXX_Y.jpg:  XXXXXX is an identificator for the image and Y is the label 0 for no mask and 1 for mask.
+## Footnote
+The folder used as an input from predcit.py should hold images in the following format XXXXXX_Y.jpg:  XXXXXX is an identificator for the image and Y is the label 0 for no mask and 1 for mask.
