@@ -25,6 +25,29 @@ The first part is specific functions for the dataset. The second part is the imp
 * predict.py - Uses the model created to, given a path to new pictures outputs a csv file with the prections on those images.
 
 ### Network-Structure
+The model is a 3 layers CNN that includes: 
+
+The first layer:
+Number of in channels is 3 because the items are RGB and the number of out channels is 16
+The batches are being normalized to 16.
+Then, it uses ReLu as an activation function and maxpooling the result.
+
+The second layer:
+Number of in channels is 16(as the first layer's output out channels) and the number of out channels is 24.
+The batches are being normalized to 24.
+Then, it uses ReLu as an activation function and maxpooling the result.
+
+The third layer:
+Number of in channels is 24 (as the first layer's output out channels) and the number of out channels is 32.
+The batches are being normalized to 32.
+Then, it uses ReLu as an activation function and maxpooling the result.
+
+the model drops out 70% for regularization, in order to prevent overfitting.
+
+The fc layer - The fully connected layer is a layer where each input is connected to all neurons. It helps provide and optimize the classification.
+
+Finally, the model computes log soft max.
+
 
 ## Installation
 1. Open the terminal
