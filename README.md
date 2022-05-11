@@ -37,3 +37,4 @@ The first part is specific functions for the dataset. The second part is the imp
 ```
     $ python predict.py /path/to/folder
 ```
+where the folder should hold images in the following format XXXXXX_Y.jpg:  XXXXXX is an identificator for the image and Y is the label 0 for no mask and 1 for mask.
