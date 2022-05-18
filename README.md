@@ -1,4 +1,5 @@
-# Mask-Wearing-Deciding-With-Deep-Learning
+# Mask-Wearing-With-Deep-Learning
+
 
 Detrimane if a person wears a mask or not using deep learning. 
 1. [General](#General)
@@ -57,7 +58,7 @@ We saw that compared to other methods, it has the best impact on the result.
 
 2. Clone the project by:
 ```
-    $ git clone https://github.com/elaysason/Mask-Wearing-Deciding-With-Deep-Learning.git
+    $ git clone https://github.com/elaysason/Mask-Wearing-With-Deep-Learning.git
 ```
 3. Run the predict.py file by:
 ```
