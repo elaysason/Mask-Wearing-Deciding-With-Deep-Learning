@@ -1,7 +1,7 @@
 # Mask-Wearing-With-Deep-Learning
 
 
-Detrimane if a person wears a mask or not using deep learning. 
+Detrimane the emotion of tweet using deep learning. 
 1. [General](#General)
     - [Background](#background)
     - [More About The Task In Hand](#More-About-The-Task-In-Hand)
