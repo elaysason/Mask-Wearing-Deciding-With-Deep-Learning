@@ -36,11 +36,7 @@ Convolution with number of in channels is [3- RGB,16,32,64] (every i'th entry in
 
 The batches are being normalized by the size of the out channels. 
 
-Then, it uses ReLu as an activation function and maxpooling the result with kernel of 2. 
-
- 
-
-drops out 80% for regularization (more about it in Regularization section). 
+Then, it uses ReLu as an activation function and maxpooling the result with kernel of 2.It drops out 80% for regularization.
 
  
 
